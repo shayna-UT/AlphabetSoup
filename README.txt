@@ -25,7 +25,6 @@
    What steps did you take to try and increase model performance?
     - Originally, the "NAME" column in the dataframe was dropped and the model was trained without it. Adding the "NAME" column back into the 
       training dataset significantly increased the performance of the original model by about 5%, demonstrating that it is an important feature. 
-    
     - Multiple modifications were made to the original model in an attempt to see if the performance of the model would be significantly changed.
       In general, the model remained at an accuracy score of about 78%, demonstrating there may be a limit to the model performance. 
 
